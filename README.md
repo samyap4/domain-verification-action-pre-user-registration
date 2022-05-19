@@ -1,10 +1,12 @@
-# Action Integration
+# Pre User Registration Action Integration Template
 
-This template is used to create Action Integrations.
+This template is used to create Action Integrations in the Pre User Registration flow. This flow runs before a user is added to a Database or Passwordless Connection.
 
 ## Documentation
 
-- [Actions flow documentation](https://auth0.com/docs/customize/actions/flows-and-triggers/login-flow) - choose your Action type for information on the provided function parameters
+- [Pre User Registration flow documentation](https://auth0.com/docs/customize/actions/flows-and-triggers/pre-user-registration-flow)
+- [Event object documentation](https://auth0.com/docs/customize/actions/flows-and-triggers/pre-user-registration-flow/event-object)
+- [API object documentation](https://auth0.com/docs/customize/actions/flows-and-triggers/pre-user-registration-flow/api-object)
 - [Action Integrations documentation](https://auth0.com/docs/customize/integrations/marketplace-partners/actions-integrations-for-partners)
 - [Coding guidelines](https://auth0.com/docs/customize/actions/action-coding-guidelines)
 
