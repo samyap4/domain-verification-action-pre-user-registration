@@ -4,7 +4,8 @@ const { apiMock } = require("../__mocks__/api-pre-user-registration");
 const { onExecutePreUserRegistration } = require("./integration.action");
 
 describe("Action integration", () => {
-  let consoleLogMock, eventMock;
+  let consoleLogMock;
+  let eventMock;
 
   beforeEach(() => {
     consoleLogMock = jest.spyOn(console, "log").mockImplementation();
