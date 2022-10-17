@@ -98,7 +98,7 @@ This file contains the Markdown-formatted instructions that tenant admins will u
 
 ### `integration.action.js`
 
-This is the code that will run on a customer's tenant on all logins. See the [Login flow documentation](https://auth0.com/docs/customize/actions/flows-and-triggers/login-flow) for information on the data contained in the `event` object and the methods available on the `api` object.
+This is the code that will run on a customer's tenant before all registrations. See the [Pre User Registration flow documentation](https://auth0.com/docs/customize/actions/flows-and-triggers/pre-user-registration-flow) for information on the data contained in the `event` object and the methods available on the `api` object.
 
 ### `integration.action.spec.js`
 
