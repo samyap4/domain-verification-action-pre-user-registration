@@ -1,5 +1,24 @@
 {
   "secrets": [],
-  "configuration": [],
+  "configuration": [
+    {
+      "name": "APPROVED_DOMAINS",
+      "label": "Approved Domains",
+      "description": "The list of approved domains that can register for your application.  Separate the domains with a comma.",
+      "default_value": "company.com,organization.org,tech.io"
+    },
+    {
+      "name": "ERROR",
+      "label": "Error",
+      "description": "The error code/message you wish to write to the tenant logs.",
+      "default_value": "Error Code: 003.  Unapproved domain signup attempted"
+    },
+    {
+      "name": "USER_ERROR_MESSAGE",
+      "label": "User Error Message",
+      "description": "The error code/message rendered in the Universal Login when the user attempts to register with a domain that is not approved.",
+      "default_value": "Registrations must be approved, please contact us to learn more!"
+    }
+  ],
   "dependencies": []
 }
