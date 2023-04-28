@@ -1,4 +1,4 @@
-This integration allows you to implement a password rotation policy for your users. You may choose to do this to increase your security posture. This Action can be used in tandem with the `Password History` setting available in your Database connections that can prevent users from rotating their password to values they have previously used. Learn more <https://auth0.com/docs/authenticate/database-connections/password-options#password-history>.
+This integration allows you to prevent sign ups from users based on their email address domain.  You can filter sign ups to only users who come from domains that your organization approves.
 
 ## Prerequisites
 
